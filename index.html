@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PF Esportes | Artigos esportivos e moda casual em Colíder - MT</title>
+<meta name="description" content="PF Esportes em Colíder - MT: chuteiras, tênis, bolas, camisas, kits infantis e moda casual das melhores marcas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--bg2:#12161b;--card:#171c22;--tx:#f4f6f8;--mut:#9aa5b1;--ac:#e50914;--acx:#ffffff;--ln:#262d36;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f7f9;--bg2:#eceff3;--card:#fff;--tx:#10151b;--mut:#55606c;--ac:#d90812;--acx:#ffffff;--ln:#d9dee4;color-scheme:light}}
+:root[data-theme="dark"]{--bg:#0b0d10}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.02em;line-height:1.05}
+a{color:inherit;text-decoration:none}
+.w{width:min(1140px,92%);margin:auto}
+header{position:fixed;inset:env(safe-area-inset-top,0px) 0 auto;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--ln)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-family:Anton,Impact,sans-serif;font-size:1.6rem;letter-spacing:.04em}.logo b{color:var(--ac);font-weight:400}
+nav ul{display:flex;gap:26px;list-style:none;padding:0}
+nav a{font-size:.9rem;font-weight:500;color:var(--mut);transition:.2s}nav a:hover{color:var(--tx)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:700;font-size:.95rem;border:2px solid var(--ac);transition:.25s;cursor:pointer}
+.b1{background:var(--ac);color:var(--acx)}.b1:hover{transform:translateY(-3px);box-shadow:0 10px 26px -8px var(--ac)}
+.b2{color:var(--tx);border-color:var(--ln)}.b2:hover{border-color:var(--ac);transform:translateY(-3px)}
+.burger{display:none;background:none;border:0;color:var(--tx);font-size:1.7rem;cursor:pointer}
+.hero{min-height:100svh;display:flex;align-items:center;padding:110px 0 60px;background:radial-gradient(70% 60% at 85% 20%,color-mix(in srgb,var(--ac) 22%,transparent),transparent 70%),linear-gradient(160deg,var(--bg2),var(--bg))}
+.hg{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.tag{display:inline-block;color:var(--ac);font-weight:700;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-size:clamp(2.8rem,8vw,6rem)}.hero h1 span{color:var(--ac)}
+.hero p{color:var(--mut);max-width:480px;margin:20px 0 30px;font-size:1.08rem}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.ph{position:relative;border-radius:18px;overflow:hidden;background:repeating-linear-gradient(135deg,var(--card),var(--card) 14px,var(--bg2) 14px,var(--bg2) 28px);border:1px solid var(--ln);display:flex;align-items:flex-end;justify-content:flex-start;transition:.4s}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph span{position:relative;margin:12px;padding:5px 11px;font-size:.72rem;font-weight:700;background:var(--bg);border-radius:99px;color:var(--mut)}
+.hero .ph{aspect-ratio:4/5;animation:fl 6s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-12px)}}
+section{padding:90px 0}.alt{background:var(--bg2)}
+.sh{margin-bottom:40px}.sh h2{font-size:clamp(2rem,5vw,3.2rem)}.sh p{color:var(--mut);margin-top:8px;max-width:560px}
+.grid{display:grid;gap:20px}.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:18px;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-8px);border-color:var(--ac)}
+.card .ph{aspect-ratio:1;border:0;border-radius:0}
+.card div.t{padding:18px}.card h3{font-size:1.3rem}.card p{color:var(--mut);font-size:.9rem;margin:6px 0 14px}
+.card a{color:var(--ac);font-weight:700;font-size:.9rem}
+:root:not([data-theme="dark"]) .card a{color:var(--tx)}
+.brands{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.brands div{display:grid;place-items:center;height:96px;background:var(--card);border:1px solid var(--ln);border-radius:14px;font-family:Anton,Impact,sans-serif;font-size:1.4rem;letter-spacing:.06em;color:var(--mut);transition:.3s}
+.brands div:hover{color:var(--ac);border-color:var(--ac);transform:scale(1.05)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
+.gal .ph:nth-child(1){grid-column:span 2;grid-row:span 2}.gal .ph:nth-child(6){grid-column:span 2}
+.gal .ph:hover,.ig .ph:hover{transform:scale(1.03)}
+.news .ph{aspect-ratio:16/10;border:0;border-radius:0}
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.ab .ph{aspect-ratio:4/3}.ab p{color:var(--mut);margin-top:14px}
+.ig{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:30px}.ig .ph{aspect-ratio:1;border-radius:12px}
+.loc{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.box{background:var(--card);border:1px solid var(--ln);border-radius:18px;padding:30px}
+.box h3{font-size:1.5rem;margin-bottom:14px}.box p{color:var(--mut);margin-bottom:10px}.box b{color:var(--tx)}
+.map{min-height:260px;display:grid;place-items:center;text-align:center;padding:30px}
+footer{border-top:1px solid var(--ln);padding:40px 0 100px;color:var(--mut);font-size:.9rem}
+.fg{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;width:62px;height:62px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.4);animation:pu 2.4s infinite}
+.wa svg{width:34px;height:34px;fill:#fff}
+@keyframes pu{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.rv{opacity:0;transform:translateY(28px);transition:.7s}.rv.on{opacity:1;transform:none}
+@media(max-width:900px){
+.burger{display:block}
+nav{position:fixed;inset:calc(68px + env(safe-area-inset-top,0px)) 0 auto;background:var(--bg);border-bottom:1px solid var(--ln);max-height:0;overflow:hidden;transition:.35s}
+nav.open{max-height:420px}nav ul{flex-direction:column;padding:16px 6%;gap:16px}
+.hg,.ab,.loc{grid-template-columns:1fr}.hero .ph{aspect-ratio:16/10}
+.g4{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr}
+.brands{grid-template-columns:repeat(3,1fr)}.ig{grid-template-columns:repeat(3,1fr)}
+.gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}.gal .ph:nth-child(6){grid-column:span 1}
+section{padding:64px 0}.hn{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+<a href="#inicio" class="logo">PF<b>.</b>ESPORTES</a>
+<nav id="nav"><ul>
+<li><a href="#produtos">Produtos</a></li><li><a href="#marcas">Marcas</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#novidades">Novidades</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#local">Localização</a></li></ul></nav>
+<a class="btn b1 hn" href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20PF%20Esportes." target="_blank" rel="noopener">WhatsApp</a>
+<button class="burger" id="bg" aria-label="Abrir menu">☰</button>
+</div></header>
+
+<main>
+<section class="hero" id="inicio"><div class="w hg">
+<div>
+<span class="tag">Colíder - MT · Esporte &amp; Estilo</span>
+<h1>Vista o jogo.<br><span>Viva o estilo.</span></h1>
+<p>Chuteiras, tênis, bolas, camisas e moda casual das marcas que você ama, no coração de Colíder.</p>
+<div class="row">
+<a class="btn b1" href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20PF%20Esportes." target="_blank" rel="noopener">Falar no WhatsApp</a>
+<a class="btn b2" href="https://www.instagram.com/pfesportescolider/" target="_blank" rel="noopener">Seguir no Instagram</a>
+</div></div>
+<div class="ph" data-slot="hero"><span>Foto principal da loja</span></div>
+</div></section>
+
+<section id="produtos"><div class="w">
+<div class="sh rv"><span class="tag">Nossa linha</span><h2>Produtos em destaque</h2><p>Confira as categorias da loja. Consulte modelos, tamanhos e disponibilidade direto pelo WhatsApp.</p></div>
+<div class="grid g4">
+<div class="card rv"><div class="ph" data-slot="chuteiras"><span>Foto: chuteiras</span></div><div class="t"><h3>Chuteiras</h3><p>Umbro Challenge, Pro 5, Velocita, Adidas F50 Society e mais.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20chuteiras." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="tenis"><span>Foto: tênis</span></div><div class="t"><h3>Tênis esportivos</h3><p>Conforto e performance para treinar e para o dia a dia.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20t%C3%AAnis." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="bolas"><span>Foto: bolas</span></div><div class="t"><h3>Bolas</h3><p>Bolas Penalty e outras opções para o seu jogo.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20bolas." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="camisas"><span>Foto: camisas</span></div><div class="t"><h3>Camisas</h3><p>Camisas de clubes e moda esportiva.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20camisas." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="kids"><span>Foto: kits infantis</span></div><div class="t"><h3>Kits infantis</h3><p>Kits de clubes para a garotada, como Flamengo.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20kits%20infantis." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="bolsas"><span>Foto: bolsas e mochilas</span></div><div class="t"><h3>Bolsas e mochilas</h3><p>Para levar seu equipamento com praticidade.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20bolsas%20e%20mochilas." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="caneleiras"><span>Foto: caneleiras</span></div><div class="t"><h3>Caneleiras</h3><p>Proteção para treinos e jogos.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20caneleiras." target="_blank" rel="noopener">Consultar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="casual"><span>Foto: moda casual</span></div><div class="t"><h3>Moda casual</h3><p>Estilo esportivo para o seu dia a dia.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20moda%20casual." target="_blank" rel="noopener">Consultar →</a></div></div>
+</div></div></section>
+
+<section class="alt" id="marcas"><div class="w">
+<div class="sh rv"><span class="tag">Trabalhamos com</span><h2>Marcas</h2></div>
+<div class="brands rv"><div>UMBRO</div><div>PENALTY</div><div>JOMA</div><div>FILA</div><div>NIKE</div><div>ADIDAS</div></div>
+</div></section>
+
+<section id="galeria"><div class="w">
+<div class="sh rv"><span class="tag">Dentro da loja</span><h2>Galeria</h2><p>Fotos reais da PF Esportes: fachada, interior e produtos.</p></div>
+<div class="gal rv">
+<div class="ph" data-slot="g1"><span>Fachada</span></div><div class="ph" data-slot="g2"><span>Interior</span></div><div class="ph" data-slot="g3"><span>Chuteiras</span></div><div class="ph" data-slot="g4"><span>Camisas</span></div><div class="ph" data-slot="g5"><span>Tênis</span></div><div class="ph" data-slot="g6"><span>Kits infantis</span></div>
+</div></div></section>
+
+<section class="alt news" id="novidades"><div class="w">
+<div class="sh rv"><span class="tag">Fique por dentro</span><h2>Novidades</h2><p>Lançamentos e chegadas são divulgados primeiro no Instagram da loja.</p></div>
+<div class="grid g3">
+<div class="card rv"><div class="ph" data-slot="n1"><span>Foto: lançamento</span></div><div class="t"><h3>Chegou na loja</h3><p>Acompanhe os lançamentos no Instagram @pfesportescolider.</p><a href="https://www.instagram.com/pfesportescolider/" target="_blank" rel="noopener">Ver no Instagram →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="n2"><span>Foto: novidade</span></div><div class="t"><h3>Linha de chuteiras</h3><p>Modelos Umbro e Adidas disponíveis. Consulte tamanhos.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20ver%20as%20novidades." target="_blank" rel="noopener">Perguntar →</a></div></div>
+<div class="card rv"><div class="ph" data-slot="n3"><span>Foto: novidade</span></div><div class="t"><h3>Kits infantis</h3><p>Kits de clubes para os pequenos torcedores.</p><a href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Quero%20ver%20kits%20infantis." target="_blank" rel="noopener">Perguntar →</a></div></div>
+</div></div></section>
+
+<section id="sobre"><div class="w ab">
+<div class="rv"><span class="tag">Sobre nós</span><h2>PF Esportes</h2>
+<p>Loja de artigos esportivos e moda casual em Colíder - MT. Reunimos chuteiras, tênis, bolas, camisas, bolsas, mochilas, caneleiras e kits infantis de clubes das marcas Umbro, Penalty, Joma, Fila, Nike e Adidas.</p>
+<p>Venha conhecer a loja no Centro ou chame no WhatsApp para tirar dúvidas.</p></div>
+<div class="ph rv" data-slot="sobre"><span>Foto da equipe / loja</span></div>
+</div></section>
+
+<section class="alt" id="instagram"><div class="w">
+<div class="sh rv"><span class="tag">@pfesportescolider</span><h2>No Instagram</h2></div>
+<div class="ig rv">
+<div class="ph" data-slot="i1"></div><div class="ph" data-slot="i2"></div><div class="ph" data-slot="i3"></div><div class="ph" data-slot="i4"></div><div class="ph" data-slot="i5"></div><div class="ph" data-slot="i6"></div>
+</div>
+<a class="btn b1" href="https://www.instagram.com/pfesportescolider/" target="_blank" rel="noopener">Seguir no Instagram</a>
+</div></section>
+
+<section id="local"><div class="w">
+<div class="sh rv"><span class="tag">Venha nos visitar</span><h2>Localização</h2></div>
+<div class="loc">
+<div class="box rv"><h3>PF Esportes</h3>
+<p><b>Endereço:</b><br>Av. Marechal Cândido Rondon, 1277 - Centro<br>Colíder - MT</p>
+<p><b>WhatsApp:</b> (66) 99999-7003</p><p><b>Instagram:</b> @pfesportescolider</p>
+<div class="row" style="margin-top:18px">
+<a class="btn b1" href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20PF%20Esportes." target="_blank" rel="noopener">WhatsApp</a>
+<a class="btn b2" href="https://www.google.com/maps/search/?api=1&query=Av.+Marechal+C%C3%A2ndido+Rondon+1277+Col%C3%ADder+MT" target="_blank" rel="noopener">Abrir no Maps</a></div></div>
+<div class="box map rv"><div><h3>Av. Marechal Cândido Rondon, 1277</h3><p>Centro · Colíder - MT</p>
+<a class="btn b2" href="https://www.google.com/maps/dir/?api=1&destination=Av.+Marechal+C%C3%A2ndido+Rondon+1277+Col%C3%ADder+MT" target="_blank" rel="noopener">Como chegar</a></div></div>
+</div></div></section>
+</main>
+
+<footer><div class="w fg">
+<div><span class="logo">PF<b>.</b>ESPORTES</span><br>Artigos esportivos e moda casual · Colíder - MT</div>
+<div class="row"><a href="https://www.instagram.com/pfesportescolider/" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/5566999997003" target="_blank" rel="noopener">WhatsApp</a></div>
+<div>© <span id="y">2026</span> PF Esportes</div>
+</div></footer>
+
+<a class="wa" href="https://wa.me/5566999997003?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20PF%20Esportes." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-1.9c1.8 1 3.7 1.500 5.700 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.900c-1.800 0-3.600-.5-5.100-1.400l-.4-.2-4.400 1.100 1.200-4.300-.3-.4a10.200 10.200 0 0 1-1.600-5.500C5.400 9.800 10.100 5.200 16 5.200s10.600 4.600 10.600 10.300S21.900 25.900 16 25.900zm5.800-7.600c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100c-1.900-.9-3.100-1.700-4.300-3.800-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400s-1 1-1 2.400 1 2.800 1.200 3c.2.200 2 3.200 5 4.400 1.900.8 2.600.9 3.600.7.600-.1 1.900-.8 2.100-1.500.3-.7.300-1.400.2-1.500l-.6-.3z"/></svg></a>
+
+<script>
+(function(){
+var n=document.getElementById('nav'),b=document.getElementById('bg');
+b.onclick=function(){n.classList.toggle('open')};
+n.querySelectorAll('a').forEach(function(a){a.onclick=function(){n.classList.remove('open')}});
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+/* Para trocar por fotos reais: PHOTOS.slot = 'data:image/jpeg;base64,...' ou caminho relativo (ex.: 'img/chuteiras.jpg') */
+var PHOTOS={};
+document.querySelectorAll('[data-slot]').forEach(function(el){var s=PHOTOS[el.dataset.slot];if(s){var i=new Image();i.src=s;i.alt='PF Esportes Colíder';i.loading='lazy';el.prepend(i)}});
+})();
+</script>
+</body>
+</html>
